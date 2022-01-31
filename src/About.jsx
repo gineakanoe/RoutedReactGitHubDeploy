@@ -1,11 +1,11 @@
 import React from 'react';
 
 const divStyle = {
-    color: 'white'
+    color:'white'
 };
 
 class About extends React.Component {
-
+    
     render() {
         return (
             <div style={divStyle}>
@@ -14,8 +14,10 @@ class About extends React.Component {
                     <p>This section contains information about...</p>
                 </main>
             </div>
-        );
+        )
     }
 }
+
+
 
 export default About;
