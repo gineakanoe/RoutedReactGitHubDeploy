@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import React from 'react';
-import {Link, Switch, Route} from 'react-router-dom';
+import {Link, Routes, Route} from 'react-router-dom';
 import About from './About';
 import Home from './Home';
 
@@ -21,14 +21,14 @@ function App() {
           </li>
         </ul>
       </nav>
-      <Switch>
+      <Routes>
         <Route exact path='/'>
           <Home/>
         </Route>
         <Route path='/about'>
           <About/>
         </Route>
-      </Switch>
+      </Routes>
     </div>
   );
 }
